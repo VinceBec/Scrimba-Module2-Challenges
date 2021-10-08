@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: bisque;
 }
 
 h1 {
@@ -18,4 +19,50 @@ h1 {
     background-color: #281B2D;
     margin-top: 0;
     text-align: center;
+}
+
+.red_text {
+    color:red;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.columns {
+    display: flex;
+}
+
+.main-content {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #00C54C;
+    padding: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.l-column {
+    margin-right: 3%;
+}
+
+.r-column {
+    margin-left: 1%;
+}
+
+.link:hover {
+    color:cyan;
+}
+
+.reduced-font {
+    font-size: smaller;
+}
+
+.plain-shadow{
+    box-shadow: 0px 0px 25px black;
 }
